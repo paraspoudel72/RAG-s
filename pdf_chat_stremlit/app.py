@@ -76,8 +76,8 @@ def main():
     user_question = st.text_input('Hey, What\'s going on??')
     if user_question:
         handle_userquestion(user_question)
-        st.text_input(value = "")
-
+        # st.text_input(value = "")
+        user_question = ""
 
     # st.write(user_template.replace("{{MSG}}", 'Hey what\'s up robo?'), unsafe_allow_html=True)
     # st.write(bot_template.replace("{{MSG}}", 'Hey what\'s up Parrot?'), unsafe_allow_html=True)
